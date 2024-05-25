@@ -15,10 +15,10 @@ function WalkHistory() {
                 <Image src={img1} className='z-10 w-[300px] max-xl:w-[250px] max-lg:w-[200px] max-md:w-[150px]' alt="asasfnaf"/>
                 <p className='w-[600px] max-xl:w-[450px] max-lg:w-[350px] max-md:w-[300px] max-sm:w-[280px] font-apr text-[32px] max-xl:text-[26px] max-lg:text-[20px] max-md:text-[18px] max-sm:text-[14px] leading-9 max-md:leading-5 text-justify'>With a steadfast commitment to quality and innovation, we have earned a reputation as the go-to destination for customized awards and accolades. </p>
             </div>
-            <div className='flex justify-center items-center max-sm:flex-col gap-[120px] max-lg:gap-[100px] max-md:gap-[50px] '>
+            {/* <div className='flex justify-center items-center max-sm:flex-col gap-[120px] max-lg:gap-[100px] max-md:gap-[50px] '>
                 <Image src={img1} className='z-10 w-[300px] max-xl:w-[250px] max-lg:w-[200px] max-md:w-[150px]' alt="asasfnaf"/>
                 <p className='w-[600px] max-xl:w-[450px] max-lg:w-[350px] max-md:w-[300px] max-sm:w-[280px] font-apr text-[32px] max-xl:text-[26px] max-lg:text-[20px] max-md:text-[18px] max-sm:text-[14px] leading-9 max-md:leading-5 text-justify'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,  </p>
-            </div>
+            </div> */}
         </div>
     </>
   )
