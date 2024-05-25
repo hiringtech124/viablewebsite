@@ -12,7 +12,7 @@ function Footer() {
   const isHidden = router === '/signin' || router === '/login';
   return (
     <>
-      <div className={`${isHidden ? "hidden" : "block"} h-[400px] w-full bg-[#6C3204] flex flex-col items-center`}>
+      <div className={`${isHidden ? "hidden" : "block"} h-full max-md:flex-wrap w-full bg-[#6C3204] flex flex-col items-center`}>
         <Image className='w-[100px] py-[10px]' src={img} alt="cjhddfsdv"/>
         <div className='border-t-2 border-white-400 w-[90%] my-[10px]'></div>
         <div className='text-[#FEF9F6] pt-[20px] w-[80%] flex justify-start gap-20'>
