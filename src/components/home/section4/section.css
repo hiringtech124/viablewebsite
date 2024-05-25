@@ -1,0 +1,29 @@
+.secbg {
+    z-index: -1;
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.secbg::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 95%;
+    background-image: url("./assets/sec4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.secbg::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}

@@ -1,0 +1,25 @@
+.backImage::before {
+    z-index: -1;
+    top: -35%;
+    position: absolute;
+    content: "";
+    background-image: url("./assets/welcomebg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 142%;
+    width: 100%;
+    left: 0;
+  }
+  .backImage::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 142%;
+    background: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: -35%;
+    left: 0;
+  }
+  

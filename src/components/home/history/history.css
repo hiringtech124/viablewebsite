@@ -1,0 +1,25 @@
+.bgimg {
+    z-index: -1;
+    
+    
+    content: "";
+    background-image: url("./assets/his.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    
+  }
+  .bgimg::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    
+    background: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    
+    
+  }
+  

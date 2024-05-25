@@ -1,0 +1,25 @@
+.bgback{
+    background-image: url('./assets/hisbg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.bgback::after{
+    z-index: 5;
+    top: 20%;
+    position: absolute;
+    content: "";
+    background-image: url("./assets/Vector.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    left: 19%;
+    display: block;
+}
+@media (max-width:1400px) {
+    .bgback::after{
+        display: none;
+    }
+}

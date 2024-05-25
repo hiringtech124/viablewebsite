@@ -1,0 +1,13 @@
+.strbg::before {
+    z-index: -1;
+    top: -35%;
+    position: absolute;
+    content: "";
+    background-image: url("./assets/2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 133%;
+    width: 100%;
+    left: 0;
+  }
+  
