@@ -11,7 +11,7 @@ function Product() {
     return (
         <>
             <div className='h-full w-full bg-black text-[#fff] flex flex-col items-center gap-10 py-[40px]'>
-                <h1 className='font-serif text-[40px] max-xl:text-[35px] max-lg:text-[30px] max-md:text-[32px] w-[80%] flex flex-start max-md:justify-center'>Our Products</h1>
+                <h1 className='font-serif text-[40px] max-xl:text-[35px] max-lg:text-[30px] max-md:text-[32px] w-[80%] flex flex-start max-md:justify-center bg-clip-text text-transparent  bg-custom-gradient'>Our Products</h1>
                 <div className='grid grid-cols-3 max-md:grid-cols-2 max-[450px]:grid-cols-1 w-[70%] gap-y-10'>
                     <div className='flex flex-col items-center'>
                         <Image src={img1} className="border border-[#fff] w-[260px] h-[200px] max-xl:w-[210px] max-xl:h-[160px] max-lg:w-[160px] max-xl:h-[120px] max-md:w-[130px] max-xl:h-[120px]" alt="ajfgff" />

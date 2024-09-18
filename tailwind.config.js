@@ -12,6 +12,11 @@ module.exports = {
         apr: ['Aparajita', 'serif'],
         pop: ['Poppins', 'serif']
       },
+      backgroundImage: {
+        'decoration-gradient': `linear-gradient(0deg, #888888, #888888)`,
+        'custom-gradient': 'linear-gradient(91.75deg, #AE8625 9.51%, #F7EF8A 22.55%, #D2AC47 37.67%, #EDC967 61.66%)',
+        // Add other gradients if needed
+      },
     },
   },
   plugins: [],

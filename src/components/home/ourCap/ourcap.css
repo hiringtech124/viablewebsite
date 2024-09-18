@@ -3,21 +3,21 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.6);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 0;
     top: 0%;
     left: 0%;
     opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Smooth transition */
+    transition: opacity 0.8s ease; /* Smooth transition */
   }
   .backImg:hover::before {
     opacity: 1; /* Show on hover */
 }
 .text-container{
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.8s ease;
 }
 
 .text-container:hover{

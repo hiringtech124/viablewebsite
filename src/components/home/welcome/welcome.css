@@ -3,7 +3,7 @@
     top: -35%;
     position: absolute;
     content: "";
-    background-image: url("./assets/welcomebg.png");
+    background-image: url("./assets/welcome.svg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 142%;
@@ -15,11 +15,13 @@
     position: absolute;
     width: 100%;
     height: 142%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
     top: -35%;
     left: 0;
   }
-  
+  .custom-gradient {
+    background: linear-gradient(91.75deg, #AE8625 9.51%, #F7EF8A 22.55%, #D2AC47 37.67%, #EDC967 61.66%);
+  }

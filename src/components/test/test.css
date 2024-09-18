@@ -1,0 +1,16 @@
+@keyframes lightReflection {
+    0% {
+      border-color: #ffffff;
+    }
+    50% {
+      border-color: #ffcc00;
+    }
+    100% {
+      border-color: #ffffff;
+    }
+  }
+  
+  .grid-cell {
+    animation: lightReflection 2s infinite;
+  }
+  
